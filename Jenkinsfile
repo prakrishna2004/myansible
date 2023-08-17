@@ -10,7 +10,7 @@ pipeline{
 	    
                steps{
 		 echo 'cloning the repo'
-                 git 'https://github.com/prakrishna2004/DevOpsDemo.git'
+                 git 'https://github.com/prakrishna2004/myansible.git'
               }
           }
           stage('Compile'){
